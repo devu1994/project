@@ -1,3 +1,3 @@
 FROM python
 RUN echo "example"
-CMD ["python","/src/pyth.py"]
+CMD ["python","/pyth.py"]
