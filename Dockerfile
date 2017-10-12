@@ -1,3 +1,4 @@
 FROM python
 RUN echo "example"
-CMD ["python","/pyth.py"]
+RUN COPY . /src  
+CMD ["python","/src/pyth.py"]
